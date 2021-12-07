@@ -1,0 +1,612 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+
+    height: 75px; 
+    width: 100%;
+    display: flex;
+}
+
+.wildlife {
+    height: 100%;
+    width: 50%;
+     
+    color: white;
+    font-size: 30px;
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.menu {
+    height: 100%;
+    width: 50%;
+
+    color: white;
+    font-size: 40px;
+     
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.panner{
+    background-image: url("./Images/hinh1.jpg");
+    background-size: cover;
+
+    height: 800px;
+    width: 100%;
+    border: 1px black solid;
+
+}
+.panner_text{
+    height: 90%;
+    width: 35%;
+    margin: 0 auto;
+
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    
+}
+.panner_text h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+.panner_p p{
+    font-size: 1.5rem;
+    font-weight: 200;
+
+    color: white;
+    margin: 10px;
+    text-shadow: 0 0 3px black;
+}
+.btn_viewmore{
+    height: 50px;
+    width: 170px;
+
+    font-weight: 400;
+    font-family: initial;
+    font-size: 22px;
+    border-radius: 30px;
+    border:none;
+    
+}
+
+.photograph {
+    width: 100%;
+
+    color: white;
+    
+    font-size: 25px;
+    text-align: right;
+    padding-right: 120px;
+    box-sizing: border-box;
+}
+
+
+.explore_the_world{
+    background-color: #040307;
+
+    height: 950px;
+    width: 100%;
+    border: 1px black solid;
+}
+.explore_the_world_text{
+    color: white;
+    text-align: center;
+   
+    
+    width: 40%;
+    height: 25%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    
+}
+.explore_the_world_text h1{
+    margin: 0;
+
+    font-size: 50px;
+
+    text-shadow: 0 0 3px black;
+}
+.explore_the_world_text p{
+    margin-top: 20px;
+
+    font-size: 15px;
+
+    text-shadow: 0 0 3px black;
+}
+
+.explore_the_world_picture{
+    height: 75%;
+    width: 90%;
+    margin: 0 auto;
+
+
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+}
+.explore_the_world_picture_1{
+    background-image: url("./Images/hinh2.jpg");
+    background-position: 50% 50%;
+
+    height: 82%;
+    width: 40%;
+    margin: 15px;
+
+    color: white;
+
+    position: relative;
+    text-align: left;
+}
+.explore_the_world_picture_1 p{
+    position: absolute;
+
+    bottom: 32px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 25px;
+    text-shadow: 0 0 3px black;
+    
+}
+.explore_the_world_picture_2{
+    background-image: url("./Images/hinh3.jpg");
+    background-position: 50% 50%;
+
+    height: 82%;
+    width: 40%;
+    margin: 15px;
+
+    color: white;
+
+    position: relative;
+    text-align: left;
+}
+.explore_the_world_picture_2 p{
+    position: absolute;
+
+    bottom: 80px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 25px;
+    text-shadow: 0 0 3px black;
+}
+
+.explore_the_world_picture_3{
+    background-image: url("./Images/hinh4.jpg");
+    background-position: 50% 50%;
+
+    height: 82%;
+    width: 40%;
+    margin: 15px;
+
+    color: white;
+
+    position: relative;
+    text-align: left;
+}
+.explore_the_world_picture_3 p{
+    position: absolute;
+
+    bottom: 32px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 25px;
+    text-shadow: 0 0 3px black;
+}
+.elephant{
+    background-image: url("./Images/hinh5.jpg");
+    background-position: 50% 50%;
+    
+    height: 850px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 400px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.elephant_panner{
+    height: 30%;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.elephant_panner p{
+    color: white;
+
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 3px black;
+}
+.elephant_text{
+    height: 35%;
+    width: 50%;
+
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.elephant_text p{
+    color: white;
+
+    font-size: 16px;
+    font-family:initial;
+    
+    text-indent: 35px;
+    text-shadow: 0 0 3px black;
+}
+.background_black{
+    background-color: black;
+
+    height: 500px;
+    width: 100%;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    
+}
+.background_black_panner{
+    height: 60%;
+    width: 55%;
+
+    margin: 0 auto;
+    text-align: center;
+}
+.background_black_panner p{
+    color: white;
+
+    font-size: 48px;
+    font-weight: bold;
+    font-family: initial;
+    text-shadow: 0 0 3px black;
+    
+}
+.background_black_text{
+    height: 30%;
+    width: 55%;
+
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.background_black_text p{
+    color: white;
+
+    font-size: 16px;
+    
+
+    text-shadow: 0 0 3px black;
+}
+.horses{
+    background-image: url("./Images/hinh6.jpg");
+    background-position: 50% 50%;
+    
+    height: 500px;
+    width: 100%;
+}
+.wildlife_photographers{
+    background-color: black;
+
+    height: 800px;
+    width: 100%;
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    margin: 0 auto;
+   
+}
+.wildlife_photographers_picture{
+    height: 70%;
+    width: 90%;
+
+    display: flex;
+    margin: 0 auto;
+
+}
+.wildlife_photographers_picture1{
+   background-image: url("./Images/hinh7.jpg");
+   background-position: 50% 50%;
+
+   height: 95%;
+   width: 50%;
+   margin: 10px;
+}
+.wildlife_photographers_picture2{
+    background-image: url("./Images/hinh8.jpg");
+    background-position: 50% 50%;
+
+    height: 95%;
+    width: 50%;
+    margin: 10px;
+}
+.wildlife_photographers_text{
+    height: 30%;
+    width: 80%;
+
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.wildlife_photographers_text1{
+    height: 40%;
+    width: 100%;
+}
+.wildlife_photographers_text1 p{
+    color: white;
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+
+    text-shadow: 0 0 3px black;
+}
+.wildlife_photographers_text2{
+    height: 55%;
+    width: 100%;
+}
+.wildlife_photographers_text2 p{
+    color: white;
+
+    font-size: 18px;
+    font-weight: 200;
+    font-family: sans-serif;
+
+    text-shadow:  0 0 3px black;
+}
+.animals{
+    background-color: black;
+
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .panner{
+        background-position: 50% 50%;
+    }
+    .panner_text{
+        width: 90%;
+    }
+    .panner_h1 h1{
+        margin :0;
+        margin-top: 100px;
+    }
+    
+    .photograph{
+        padding-right: 20px;
+    }
+
+    .explore_the_world{
+        background-position:50% 50%;
+    }
+    .explore_the_world_text{
+        width: 70%;
+    }
+    .explore_the_world_picture{
+        height: 78%;
+        
+    }
+    .explore_the_world_picture_1 p{
+        font-size: 30px;
+        bottom: 50px;
+    }
+    .explore_the_world_picture_2 p{
+        font-size: 30px;
+        bottom: 50px;
+    }
+    .explore_the_world_picture_3 p{
+        font-size: 30px;
+        bottom: 18px;
+    }
+    .elephant_panner{
+        height: 60%;
+    }
+    .elephant_text{
+        height: 60%;
+
+    }
+    .background_black{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+    }
+    .background_black_panner{
+        height: 30%;
+        width: 80%;
+        
+    }
+    .background_black_text{
+        height: 50%;
+        width: 80%;
+
+        margin-top: 50px;
+    }
+    .background_black_text p{
+        font-size: 18px;
+    }
+    .horses{
+        background-size: cover;
+    }
+    .wildlife_photographers{
+        height: 1000px;
+    }
+    .wildlife_photographers_picture{
+        height: 60%;
+        
+    }
+    .wildlife_photographers_text{
+        height: 30%;
+    }
+    .wildlife_photographers_text1{
+        height: 25% ;
+    }
+    .wildlife_photographers_text1 p{
+        font-size: 40px;
+    }
+    .wildlife_photographers_text2{
+        height: 30%;
+
+        margin-top: 80px;
+    }
+    .wildlife_photographers_text2 p{
+
+        font-size: 15px;
+    }
+   
+    
+}
+@media screen and (max-width: 576px) {
+    .panner_text{
+        width: 70%;
+    }
+    .panner_h1 h1{
+        font-size: 4rem;
+    }
+    .panner_p p{
+        font-size: 1.85rem;
+    }
+    .photograph{
+        text-align: center;
+    }
+    .explore_the_world{
+        height: 2200px;
+        width: 100%;
+    }
+    .explore_the_world_text{
+        height: 15%;
+        width: 45%;
+    }
+    .explore_the_world_picture{
+        height: 85% ;
+        
+
+        display: grid;
+        grid-template-rows: 33% 33% 33%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .explore_the_world_picture_1{
+        height: 95%;
+        width: 70%;
+
+        grid-row: 1/2;
+        text-align: left;
+        margin: 0 auto;
+
+        
+    }
+    .explore_the_world_picture_1 p{
+        text-align: left;
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .explore_the_world_picture_2{
+        height: 95%;
+        width: 70%;
+
+        grid-row: 2/3;
+        margin: 0 auto;
+
+
+    }
+    .explore_the_world_picture_2 p{
+        text-align: left;
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .explore_the_world_picture_3{
+        height: 95%;
+        width: 70%;
+
+        grid-row: 3/4;
+        margin: 0 auto;
+    }
+    .explore_the_world_picture_3 p{
+        text-align: left;
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .background_black{
+        height: 850px;
+        width: 100%;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .background_black_panner{
+        height: 50%;
+        width: 60%;
+    }
+    .background_black_panner p{
+        font-size: 55px;
+    }
+    .background_black_text{
+        height: 50%;
+        width: 40%;
+    }
+    .wildlife_photographers{
+        height: 1500px;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+    }
+    .wildlife_photographers_picture{
+        display: grid ;
+        grid-template-rows: 50% 50%;
+
+        height: 70%;
+        width: 90%;
+    }
+    .wildlife_photographers_picture1{
+        grid-row: 1/2;
+
+        width: 95%;
+        height: 90%;
+        margin: 10px;
+    }
+    .wildlife_photographers_picture2{
+        grid-row: 2/3
+        ;
+
+        width: 95%;
+
+        height: 90%;
+        margin: 10px;
+    }
+    .wildlife_photographers_text{
+        height: 30%;
+    }
+}
+
